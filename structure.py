@@ -85,7 +85,7 @@ def run_example_with_no_agent(
         event_driver (optional): the object that will publish the event.
     """
     print("Dropping in on this gnarly half-pipe.")
-    output_artifact = TextArtifact("Nosebone flip into a 360 Varial McTwist!")
+    output_artifact = TextArtifact("Greetings from a Structure Hosted in Griptape Cloud!")
 
     task_input = TextArtifact(value=input)
     done_event = FinishStructureRunEvent(
